@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+p{
+    background-color: yellow;
+    color: red;
+    font-size: 30px;
+
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 2;
+    font-family: "Times New Roman", sans-serif;
+    background-color: paleturquoise;
+    color: black;
+}
+
+a:link,a:visited {
+    text-decoration: none;
+}
+
+a:active,a:hover {
+text-decoration: underline;
+}
