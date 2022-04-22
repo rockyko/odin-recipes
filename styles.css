@@ -1,27 +1,44 @@
-h1{
+h1,h3,h4{
     text-align: center;
     background-color: black;
     color: white;
+    font-family: Arial ,serif;
 
+}
+img{
+    height: 400px;
+    width: auto;
 }
 p{
     background-color: yellow;
     color: red;
-    font-size: 30px;
+    font-size: 33px;
 
 }
 ul li a{
     font-size: 20px;
     font-weight: 2;
-    font-family: "Times New Roman", sans-serif;
-    background-color: paleturquoise;
+    font-family: Helvetica , sans-serif;
     color: black;
 }
 
+
+ul li{
+    list-style: none;
+    color: red;
+    text-align: center;
+}
+
+ol li {
+    background-color: paleturquoise;
+}
+
 a:link,a:visited {
+    color: blue;
     text-decoration: none;
 }
 
 a:active,a:hover {
-text-decoration: underline;
+    color: darkblue;
+    text-decoration: underline;
 }
